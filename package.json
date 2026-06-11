@@ -4,7 +4,7 @@
   "description": "AI-powered WhatsApp chat analyzer chatbot",
   "private": true,
   "scripts": {
-    "dev": "concurrently \"npm run dev:server\" \"npm run dev:client\"",
+    "dev": "echo \"To run the app, open two terminals. In Terminal 1: npm run dev:server | In Terminal 2: npm run dev:client\"",
     "dev:server": "cd server && npm run dev",
     "dev:client": "cd client && npm run dev",
     "install:all": "npm install && cd server && npm install && cd ../client && npm install",
